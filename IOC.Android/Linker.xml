@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<linker>
+    <assembly fullname="IOC">
+        <type fullname="IOC.*" />
+    </assembly>
+    <assembly fullname="Microsoft.Practices.Unity">
+        <type fullname="Microsoft.Practices.Unity*" />
+    </assembly>
+    <assembly fullname="Unity">
+        <type fullname="Unity.ServiceLocation" preserve="all">
+            <method name=".ctor" />
+        </type>
+        <type fullname="Unity.Navigation.UnityPageNavigationService" preserve="all" />
+    </assembly>
+</linker>
